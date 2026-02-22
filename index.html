@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FLAMES Calculator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>🔥 FLAMES Calculator 🔥</h1>
+
+        <form method="POST">
+            <input type="text" name="name1" placeholder="Enter First Name" required>
+            <input type="text" name="name2" placeholder="Enter Second Name" required>
+            <button type="submit">Check Relationship</button>
+        </form>
+
+        {% if result %}
+        <h2>Result: {{ result }}</h2>
+        {% endif %}
+    </div>
+</body>
+</html>
