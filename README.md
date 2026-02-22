@@ -55,3 +55,5 @@ flames_project/
 5. Open browser and go to:
 
 http://127.0.0.1:5000
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/c70cb6ea-2d93-4b0c-a250-dd76f6bc594c" />
